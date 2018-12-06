@@ -535,6 +535,11 @@ _KOK=$(echo -e '\033[01;32m') # bold green fg
 _KWN=$(echo -e '\033[01;33m') # bold yellow fg
 _KER=$(echo -e '\033[01;31m') # bold red fg
 _KNM=$(echo -e '\033[00;00m') # normal
+_KHI=$(printf '\e[0;90;103m')
+_KOK=$(printf '\e[0;32;48m')
+_KWN=$(printf '\e[0;90;103m')
+_KER=$(printf '\e[0;97;101m')
+_KNM=$(printf '\e[0;0m')
 
 _KCOLORIZE='
 BEGIN {
